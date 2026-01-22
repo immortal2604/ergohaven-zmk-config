@@ -66,6 +66,12 @@
             key-positions = <2 3>;
             layers = <0>;
         };
+
+        LNG_SWT {
+            bindings = <&kp RC(SPACE)>;
+            key-positions = <2 1 3>;
+            layers = <0>;
+        };
     };
 
     macros {
