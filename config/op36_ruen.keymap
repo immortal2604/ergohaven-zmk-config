@@ -162,10 +162,10 @@
 
         sym_ru {
             bindings = <
-  &kp TILDE               &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT                       &kp UNDER           &kp RBKT                    &kp DLLR
-  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RIGHT_CONTROL LEFT_BRACE  &hmr RSHFT RU_SEMI  &hmr RIGHT_ALT RIGHT_BRACE  &hmr RGUI EXCL
-  &kp HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH      &kp AMPS                     &kp AT     &kp PIPE                       &kp RU_COMMA        &kp RU_DOT                  &kp RU_QMARK
-                                                            &trans           &mo 5      &trans    &trans  &none      &trans
+  &en GRAVE               &en LS(LT)      &en EQUAL         &en LS(GT)       &kp GRAVE                       &en LCTRL      &en LBKT                       &en LS(UNDER)       &en RBKT                    &en LS(DLLR)
+  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &en LS(PLUS)                    &en LS(PRCNT)  &hmr RIGHT_CONTROL LEFT_BRACE  &hmr RSHFT RU_SEMI  &hmr RIGHT_ALT RIGHT_BRACE  &hmr RGUI EXCL
+  &en LS(POUND)           &en LS(STAR)    &en LS(COLON)     &en FSLH         &kp AMPS                        &en LS(AT)     &en LS(PIPE)                   &en COMMA           &en DOT                     &en LS(QMARK)
+                                                            &trans           &mo 5         &trans    &trans  &none          &trans
             >;
 
             display-name = "Symbols";
