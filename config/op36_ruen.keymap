@@ -16,7 +16,7 @@
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-unless-interrupted";
             require-prior-idle-ms = <100>;
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
