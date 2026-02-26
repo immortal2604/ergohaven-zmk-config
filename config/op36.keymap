@@ -56,6 +56,16 @@
             bindings = <&kp LC(SPACE)>;
             key-positions = <22 23>;
         };
+
+        exclamation_mark {
+            bindings = <&kp EXCL>;
+            key-positions = <28 29>;
+        };
+
+        question_mark {
+            bindings = <&kp QMARK>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {
