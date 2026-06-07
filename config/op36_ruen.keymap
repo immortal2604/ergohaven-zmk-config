@@ -66,6 +66,26 @@
             key-positions = <2 3>;
             layers = <0>;
         };
+
+        sorastream {
+            bindings = <&kp EXCL>;
+            key-positions = <28 29>;
+        };
+
+        Question {
+            bindings = <&kp QUESTION>;
+            key-positions = <18 19>;
+        };
+
+        Comma {
+            bindings = <&kp RU_COMMA>;
+            key-positions = <27 28>;
+        };
+
+        Dot {
+            bindings = <&kp RU_DOT>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
